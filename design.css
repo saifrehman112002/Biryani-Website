@@ -24,7 +24,7 @@ body, html {
 }
 
 #bgdiv {
-    height: 90vh;
+    height: auto;
     width: 100%;
     background-image: url("bg2.webp");
     background-position: center;
@@ -47,7 +47,7 @@ body, html {
 
 #drop li {
     padding-top: 0.8vh;
-    font-size: 2rem;
+    font-size: 2vw;
     height: 100%;
     float: left;
 }
@@ -58,7 +58,7 @@ body, html {
 
 #drop li a {
     color: white;
-    padding: 1rem;
+    padding: 1vw;
     text-decoration: none;
     width: 100%;
     height: 100%;
@@ -71,15 +71,16 @@ body, html {
 /* Headings */
 #heading1 {
     margin-left: 40vw;
+    /* text-align: center; */
     margin-top: 12vh;
-    font-size: 10rem;
+    font-size: 10vw;
     color: whitesmoke;
     font-weight: lighter;
 }
 
 #heading2 {
     margin-left: 15vw;
-    font-size: 7rem;
+    font-size: 7vw;
     color: whitesmoke;
     font-weight: lighter;
 }
@@ -88,7 +89,7 @@ body, html {
 #menubutton {
     margin-left: 42vw;
     height: 10vh;
-    width: 22vw;
+    width: 22%;
     background-color: black;
     border: none;
 }
@@ -96,7 +97,7 @@ body, html {
 #menubutton a {
     color: white;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 3vw;
     word-spacing: -0.75rem;
 }
 
@@ -114,10 +115,11 @@ body, html {
     border: none;
     background-color: black;
     color: white;
-    font-size: 2rem;
+    font-size: 2vw;
     word-spacing: -0.75rem;
     margin-left: 2vw;
     margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 #timingbutton:hover {
@@ -135,7 +137,7 @@ body, html {
 #heading3 {
     margin-left: 40vw;
     padding-top: 8vh;
-    font-size: 5rem;
+    font-size: 5vw;
     color: whitesmoke;
     font-weight: lighter;
 }
@@ -171,7 +173,7 @@ body, html {
 
 #drop2 li a {
     color: white;
-    padding: 8.16vw;
+    padding: 8.1vw;
     text-decoration: none;
     height: 100%;
 }
@@ -190,7 +192,7 @@ body, html {
 .heading4 {
     margin-left: 2vw;
     padding-top: 5vh;
-    font-size: 3.5rem;
+    font-size: 3.5vw;
 }
 
 .price {
@@ -199,15 +201,15 @@ body, html {
     background-color: gray;
     border-radius: 5px;
     color: white;
-    height: 3.5rem;
-    width: 10rem;
-    padding-left: 1rem;
+    height: 8vh;
+    width: 10vw;
+    padding-left: 1vw;
 }
 
 .desc {
     margin-left: 2vw;
     margin-top: 2.55vh;
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     word-spacing: -0.75rem;
     color: gray;
 }
@@ -229,7 +231,7 @@ body, html {
 }
 
 #text1 {
-    font-size: 2rem;
+    font-size: 2vw;
     margin-left: 15vw;
     margin-right: 15vw;
     text-align: justify;
@@ -255,7 +257,7 @@ body, html {
 
 #text2, #text3 {
     padding-top: 2vh;
-    font-size: 2rem;
+    font-size: 2vw;
     margin-left: 15vw;
     margin-right: 15vw;
     margin-top: 2vh;
@@ -292,7 +294,7 @@ body, html {
 
 #text4 {
     color: white;
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     margin-left: 15vw;
     margin-right: 15vw;
     margin-top: 3vh;
@@ -306,7 +308,7 @@ body, html {
     width: 70vw;
     height: 3.5rem;
     color: gray;
-    font-size: 1.875rem;
+    font-size: 1.875vw;
     padding-left: 2vw;
 }
 
