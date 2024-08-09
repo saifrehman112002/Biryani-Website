@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: customfont;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: customfont;
+    src: url("handkerchief.ttf");
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+/* Main Container */
+#maindiv {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+#bgdiv {
+    height: auto;
+    width: 100%;
+    background-image: url("bg2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navbar */
+#drop {
+    list-style-type: none;
+    overflow: hidden;
+    height: 3.5vw;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.503);
+}
+
+#drop:hover {
+    background-color: rgba(0, 0, 0, 0.811);
+}
+
+#drop li {
+    padding-top: 0.4vw;
+    font-size: 2vw;
+    height: 100%;
+    float: left;
+}
+
+#drop li:hover {
+    background-color: silver;
+}
+
+#drop li a {
+    color: white;
+    padding: 1vw;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+#drop li a:hover {
+    color: black;
+}
+
+/* Headings */
+#heading1 {
+    margin-left: 40vw;
+    margin-top: 6vw;
+    font-size: 10vw;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+#heading2 {
+    margin-left: 15vw;
+    font-size: 7vw;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+/* Buttons */
+#menubutton {
+    margin-left: 39.5vw;
+    height: 5vw;
+    width: 22%;
+    background-color: black;
+    border: none;
+}
+
+#menubutton a {
+    color: white;
+    text-decoration: none;
+    font-size: 3vw;
+    word-spacing: -0.75vw;
+}
+
+#menubutton:hover {
+    background-color: silver;
+}
+
+#menubutton a:hover {
+    color: black;
+}
+
+#timingbutton {
+    height: 4vw;
+    width: 18vw;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+    word-spacing: -0.75vw;
+    margin-left: 2vw;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+}
+
+#timingbutton:hover {
+    color: black;
+    background-color: silver;
+}
+
+/* Menu Section */
+#menudiv {
+    height: 100vw;
+    width: 100%;
+    background-color: black;
+}
+
+#heading3 {
+    /* margin-left: 40vw; */
+    text-align: center;
+    padding-top: 4vw;
+    font-size: 5vw;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+/* Menu Cards */
+#menucard {
+    width: 70vw;
+    height: 100vw;
+    margin-left: 15vw;
+    margin-top: 3vw;
+}
+
+#menutop {
+    width: 100%;
+    height: 6vw;
+    background-color: black;
+    border: 1px solid white;
+}
+
+#drop2 {
+    list-style-type: none;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+#drop2 li {
+    font-size: 3vw;
+    height: 100%;
+    padding-top: 1.25vw;
+    float: left;
+}
+
+#drop2 li a {
+    color: white;
+    padding: 8.1vw;
+    text-decoration: none;
+    height: 100%;
+}
+
+#drop2 li:hover {
+    background-color: red;
+}
+
+/* Menu Items */
+.menubottom {
+    width: 100%;
+    height: 70vw;
+    background-color: white;
+}
+
+.heading4 {
+    margin-left: 2vw;
+    padding-top: 2.5vw;
+    font-size: 3.5vw;
+}
+
+.price {
+    float: right;
+    margin-right: 2vw;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    height: 4vw;
+    width: 10vw;
+    padding-left: 1vw;
+}
+
+.desc {
+    margin-left: 2vw;
+    margin-top: 1.275vw;
+    font-size: 3vw;
+    word-spacing: -0.25vw;
+    color: gray;
+}
+
+.line {
+    color: silver;
+    margin-top: 2.5vw;
+}
+
+/* About Section */
+#aboutdiv {
+    width: 100%;
+    height: 100vw;
+    background-image: linear-gradient(to top, black, #8C5740, black);
+}
+
+
+#text1 {
+    font-size: 2vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: justify;
+    margin-top: 5vw;
+    color: white;
+    word-spacing: -0.3125vw;
+    text-transform: uppercase;
+}
+
+#imagechef {
+    width: 12vw;
+    height: auto;
+    float: right;
+    border-radius: 50%;
+}
+
+#aboutimage {
+    width: 70vw;
+    height: 35vw;
+    margin-left: 15vw;
+    margin-top: 1.5vw;
+}
+
+#text2, #text3 {
+    padding-top: 1vw;
+    font-size: 2vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 1vw;
+    color: white;
+    word-spacing: -0.3125vw;
+    text-transform: uppercase;
+}
+
+#timings {
+    float: right;
+    margin-right: 25vw;
+}
+
+/* Map Section */
+#mapdiv {
+    width: 100%;
+    height: 55vw;
+    background-image: url("map.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Contact Section */
+#contactdiv {
+    width: 100%;
+    height: 70vw;
+    background-image: linear-gradient(to right, black, #8C5740, black);
+}
+
+
+#text4 {
+    color: white;
+    font-size: 2.5vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 1.5vw;
+    word-spacing: -0.8125vw;
+    text-transform: uppercase;
+}
+
+.inputs {
+    margin-left: 15vw;
+    margin-top: 2.25vw;
+    width: 70vw;
+    height: 3.5vw;
+    color: gray;
+    font-size: 1.875vw;
+    padding-left: 2vw;
+}
+
+/* Footer */
+#creditdiv {
+    width: 100%;
+    height: 12.5vw;
+    background-color: black;
+}
+
+#creditdiv #heading3 {
+    margin-left: 25vw;
+}
