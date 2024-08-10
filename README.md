@@ -41,10 +41,13 @@ To clone and run this website locally, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/Biryani-Website.git
+   ```
 2. Navigate to the project directory:
+   ```bash
    cd Biryani-Website
+   ```
 3. Open design.html in your preferred web browser:
-   Simply double-click the design.html file or open it using your browser's file-open functionality.
+   Simply double-click the index.html file or open it using your browser's file-open functionality.
 
 ## Usage
 
