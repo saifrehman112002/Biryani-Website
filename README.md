@@ -26,13 +26,13 @@ Welcome to the **Biryani-Website**! This website is a beautifully designed, resp
 
 Here are some screenshots of the website:
 
-1. ![Screenshot 1](https://github.com/saifrehman112002/Biryani-Website/blob/main/SS1.png)
-2. ![Screenshot 2](https://github.com/saifrehman112002/Biryani-Website/blob/main/SS2.png)
-3. ![Screenshot 3](https://github.com/saifrehman112002/Biryani-Website/blob/main/SS3.png)
-4. ![Screenshot 4](https://github.com/saifrehman112002/Biryani-Website/blob/main/SS4.png)
-5. ![Screenshot 5](https://github.com/saifrehman112002/Biryani-Website/blob/main/SS5.png)
-6. ![Screenshot 6](https://github.com/saifrehman112002/Biryani-Website/blob/main/SS6.png)
-7. ![Screenshot 7](https://github.com/saifrehman112002/Biryani-Website/blob/main/SS7.png)
+![Screenshot 1](https://github.com/saifrehman112002/Biryani-Website/blob/main/SS1.png)
+![Screenshot 2](https://github.com/saifrehman112002/Biryani-Website/blob/main/SS2.png)
+![Screenshot 3](https://github.com/saifrehman112002/Biryani-Website/blob/main/SS3.png)
+![Screenshot 4](https://github.com/saifrehman112002/Biryani-Website/blob/main/SS4.png)
+![Screenshot 5](https://github.com/saifrehman112002/Biryani-Website/blob/main/SS5.png)
+![Screenshot 6](https://github.com/saifrehman112002/Biryani-Website/blob/main/SS6.png)
+![Screenshot 7](https://github.com/saifrehman112002/Biryani-Website/blob/main/SS7.png)
 
 ## Installation
 
