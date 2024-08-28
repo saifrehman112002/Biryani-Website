@@ -51,9 +51,9 @@ To clone and run this website locally, follow these steps:
 
 ## Usage
 
-Navigating the Website: Use the navbar to move between the Home, Menu, About, and Contact sections.
-Viewing Menu Items: Click on the menu items in the menu section to switch between different food categories.
-Contacting the Restaurant: Fill out the form in the Contact section to send a message directly from the website.
+- **Navigating the Website:** Use the navbar to move between the Home, Menu, About, and Contact sections.
+- **Viewing Menu Items:** Click on the menu items in the menu section to switch between different food categories.
+- **Contacting the Restaurant:** Fill out the form in the Contact section to send a message directly from the website.
 
 ## Technologies Used
 
